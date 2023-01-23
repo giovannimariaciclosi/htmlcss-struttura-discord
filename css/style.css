@@ -166,7 +166,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 80px;
   background-color: rgba(255, 238, 0, 0.648);
 }
 
@@ -179,5 +179,21 @@
 #section-four-text {
   width: 344px;
   height: 253px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 21px;
   background-color: rgba(249, 207, 0, 0.648);
+}
+
+#section-four-text h1 {
+  width: 344px;
+  height: 96px;
+  background-color: rgba(249, 91, 0, 0.648);
+}
+
+#section-four-text p {
+  width: 344px;
+  height: 137px;
+  background-color: rgba(249, 91, 0, 0.648);
 }
