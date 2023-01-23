@@ -8,9 +8,14 @@
   border: dotted 1px black;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+}
+
 .nav-container {
   height: 70px;
-  max-width: 1300px;
   display: flex;
   justify-content: space-between;
   background-color: green;
@@ -24,7 +29,7 @@
 
 .nav-container ul {
   height: 100%;
-  max-width: 440px;
+  width: 440px;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -41,6 +46,81 @@
 
 #login {
   height: 70px;
-  min-width: 70px;
+  min-width: 110px;
   background-color: #00FF29;
 }
+
+#section-one {
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  background-color: rgba(0, 0, 255, 0.648);
+}
+
+#title {
+  width: 445px;
+  height: 68px;
+  background-color: rgba(0, 106, 255, 0.648);
+}
+
+#paragraph {
+  width: 660px;
+  height: 76px;
+  background-color: rgba(0, 106, 255, 0.648);
+}
+
+.button-container {
+  width: 445px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  background-color: rgba(0, 106, 255, 0.648);
+}
+
+.button {
+  width: 180px;
+  height: 48px;
+  background-color: rgba(0, 191, 255, 0.851);
+}
+
+#section-two {
+  height: 669px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  background-color: rgba(0, 136, 255, 0.648);
+}
+
+#section-text  {
+  width: 352px;
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  background-color: rgba(0, 242, 255, 0.628);
+}
+
+#section-text h1 {
+  width: 352px;
+  height: 243px;
+  background-color: rgba(12, 196, 119, 0.628);
+}
+
+#section-text p {
+  width: 352px;
+  height: 105px;
+  background-color: rgba(12, 196, 119, 0.628);
+}
+
+.img {
+  width: 496px;
+  height: 344px;
+  background-color: rgba(0, 242, 255, 0.628);
+}
+
