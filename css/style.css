@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug * {
+  border: dotted 1px black;
+}
+
+.nav-container {
+  height: 70px;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+
+#logo {
+  height: 70px;
+  min-width: 110px;
+  background-color: #00FF29;
+}
+
+.nav-container ul {
+  height: 100%;
+  max-width: 440px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  background-color: #00FF29;
+}
+
+.nav-container ul li {
+  width: 50px;
+  height: 30px;
+  background-color: #DB00FF;
+}
+
+#login {
+  height: 70px;
+  min-width: 70px;
+  background-color: #00FF29;
+}
